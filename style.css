@@ -59,7 +59,11 @@ body{
 }
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
-    backface-visibility: hidden;
+    backface-visibility: hidden; 0.6rem;
+    margin-top: 0.5rem;
+}
+#container {
+    display: flex;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -68,7 +72,11 @@ footer{
     background-color: black;
     color: white;
     bottom: 0;
-    width: 100%;
+    width: 100%; 0.6rem;
+    margin-top: 0.5rem;
+}
+#container {
+    display: flex;
     position: fixed;
     height: 2rem;
 }
@@ -77,3 +85,11 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
+}
+
