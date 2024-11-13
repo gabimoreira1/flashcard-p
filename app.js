@@ -1,3 +1,4 @@
+
 function criarCartao(categoria,pergunta,resposta){
     let container = document.grtElementById('container')
     let cartao = document.createElement('article')
@@ -16,3 +17,4 @@ cartao.innerHTML = `
 `
 container.appendChild(cartao)
 }
+
